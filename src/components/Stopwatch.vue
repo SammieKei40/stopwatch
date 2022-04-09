@@ -73,11 +73,11 @@ export default {
 
 <style scoped>
 .Ellipse-7 {
-   width: 400px;
-  height: 400px;
+   width: 350px;
+  height: 350px;
   position: relative;
   flex-grow: 0;
-  margin: 50px 17px 63px 43px;
+  margin: 80px;
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.06), -4px -4px 15px 0 rgba(255, 255, 255, 0.5);
   border: solid 24px #ebebeb;
   background-color: #ebebeb;
@@ -86,13 +86,17 @@ export default {
 .base-timer {
 width: 300px;
   height: 300px;
-  flex-grow: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   bottom: 50%;
-  margin: -150px 0px 0px -150px;
+  margin: -150px;
+
 }
+
+
+
+
 /* Removes SVG styling that would hide the time label */
 .base-timer__circle {
     fill: none;
@@ -106,14 +110,12 @@ width: 300px;
   }
 
 span {
- flex-grow: 0;
   font-family: QuattrocentoSans;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: left;
   color: #53967a;
   position: absolute;    
     /* Size should match the parent container */    
@@ -125,12 +127,13 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     /* Sort of an arbitrary number; adjust to your liking */
     font-size: 48px;
 }
 
 .btn {
-  width: 120px;
+  width: 90px;
   height: 50px;
   margin: 220px 13px ;
   padding: 16px 52px 17px;

@@ -79,15 +79,15 @@ export default {
 .Stopwatch-screen {
   width: 100%;
   height: auto;
-  flex-grow: 0;
   border-radius: 20px;
   background-color: #ebebeb;
+  overflow-x: hidden;
 }
 
 .Ellipse-7 {
   width: 50px;
   height: 50px;
-  flex-grow: 0;
+  
   margin: 0px 0px 50px 50px;
   padding: 5px;
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.06), -4px -4px 15px 0 rgba(255, 255, 255, 0.5);
@@ -99,7 +99,7 @@ export default {
 .Alarm {
   width: 37px;
   height: 16px;
-  flex-grow: 0;
+  
   margin: 1px 0 0;
   font-family: QuattrocentoSans;
   font-size: 14px;
@@ -115,7 +115,6 @@ export default {
 .Clock {
   width: 34px;
   height: 16px;
-  flex-grow: 0;
   margin: 1px 0 0;
   font-family: QuattrocentoSans;
   font-size: 14px;

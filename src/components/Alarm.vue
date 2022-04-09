@@ -91,7 +91,7 @@ export default {
   color: #808080;
 }
 .Rectangle-5 {
-  width: 25em;
+  width: 20em;
   height: 58px;
   margin: 32px 0 24px 1px;
   padding: 8px 14px;
